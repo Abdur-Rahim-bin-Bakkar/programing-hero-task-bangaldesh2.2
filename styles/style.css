@@ -7,6 +7,9 @@
 body{
     background-color: #F1F1F3;
 }
+button{
+    cursor: pointer;
+}
 header{
     max-width: 1280px;
 
@@ -287,4 +290,218 @@ table th,td{
 color: #0e0e0e;
 font-weight: bold;
 margin-right: 20px;
+}
+.container5{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container5 h1{
+    font-weight: 40px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+.container5 p{
+    font-weight: 16px;
+    font-weight: normal;
+    color: #0e0e0ea5;
+    margin-bottom: 32px;
+}
+.satalight-box{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.satalight-box .box{
+    padding: 48px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    gap: 32px;
+}
+.satalight-box .box2{
+    flex-direction: row-reverse;
+}
+.satalight-box .box .img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.satalight-box .box .text-box h1{
+    font-size: 32px;
+    color: #0e0e0eb6;
+    margin-bottom: 12px;
+}
+.satalight-box .box .text-box  img{
+    max-width: 134px;
+    margin-bottom: 12px;
+}
+.satalight-box .box .text-box .times {
+    display: flex; gap: 10px;
+    font-size: 16px;
+    color: #0e0e0eb6;
+}
+.satalight-box .box .text-box button{
+    width: 139px;
+    height: 48px;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+
+.section6{
+    padding: 80px 0px;
+}
+.section6 .container6{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section6 .container6 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+.section6 .container6 p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0e0e0ebe;
+    margin-bottom: 32px;
+}
+.section6 .container6 .price-card-box{
+    max-width: 1071px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.section6 .container6 .price-card-box .price-card{
+    width: 240px;
+    height:128px ;
+    border: 1px solid #0e0e0e1c;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #0e0e0ed1;
+}
+.section6 .container6 .price-card-box .price-cards{
+    width: 252px;
+    background-color: #C6E4D6;
+}
+.section6 .container6  span{
+    display: inline-block;
+    width: 1032px;
+    height: 64px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+    font-size: 20px;
+    color: #0e0e0e1c;
+    margin-bottom: 32px;
+
+}
+.section6 .container6  button{
+    width: 151px;
+    height: 56px;
+    color: white;
+    font-weight: bold;
+    background-color: #006A50;
+    padding: 34px 17px;
+    border: 1px solid #0e0e0ed1;
+    outline: none; 
+    border-radius: 8px;
+    font-size: 18px;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+}
+.section7{
+    padding-bottom: 80px;
+}
+.section7 .container7{
+    max-width: 1280px;
+    height: 395px;
+    margin: 0 auto;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+}
+.section7 .container7 h1{
+    font-size: 40px;
+    color: #0e0e0e;
+    margin-bottom: 16px;
+}
+.section7 .container7 p{
+    font-size: 16px;
+    color: #0e0e0e;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.section7 .container7 .input-group{
+    max-width: 750px;
+    height: 56px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.section7 .container7 .input-group input{
+    height: 56px;
+    border: none;
+}
+.section7 .container7 .input-group input[type='email']{
+    width: 600px;
+    border: none;
+    outline: none;
+}
+.section7 .container7 .input-group input[type='submit']{
+    width: 150px;
+    height: 56px;
+    background-color: #006A50;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+footer{
+    padding:50px 160px;
+    background-color: white;
+}
+footer .foot-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+footer .foot-container h1{
+    font-size: 32px;
+    color: #0e0e0e;
+
+
+}
+footer .foot-container hr{
+    margin:32px auto ;
+}
+footer .foot-container .icons img{
+    /* display: flex; */
+
+    
+    margin: 0 10px;
 }
